@@ -1,6 +1,6 @@
 /* menu show*/
 const showMenu = (toggleId, navId) =>{
-    const toggle = docment.getElementById(toggleId),
+    const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
 
     if(toggle && nav){

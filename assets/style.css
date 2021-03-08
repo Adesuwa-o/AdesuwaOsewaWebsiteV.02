@@ -147,7 +147,8 @@ img{
         padding: 2rem;
         background-color: rgba(255,255,255,.3);
         transition: .5s;
-        backdrop-filter: blur(10px);
+        backdrop-filter: drop-shadow(4px 4px 10px blue);
+
 
     }
 }
@@ -343,7 +344,11 @@ img{
 /* Contact*/
 .contact_container{
     row-gap: 2rem;
+    display: flex;    /* added*/
+    justify-content: center;  /* added*/
+   
 }
+/* 
 .contact_subtitle{
     font-size: var(--normal-font-size);
     color: var(--first-color)
@@ -351,11 +356,11 @@ img{
 
 .contact_text{
     display: inline-block;
-    margin-bottom: var(--mb-2);
-}
+    margin-bottom: var(--mb-2); 
+}*/
 .contact_inputs{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(.5, 1fr); /* changed*/
     column-gap: 1rem;
 }
 .contact_input{
@@ -366,6 +371,8 @@ img{
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-4);
     border-radius: .5rem;
+  
+    
 }
 .contact_button{
     display: block;
@@ -384,18 +391,18 @@ img{
 
 .footer{
     background-color: var(--dark-color);
-
 }
+
 .footer_container{
     row-gap: 2rem;
 }
 .footer_title{
     font-size: var(--normal-font-size);
     color: var(--white-color);
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-1);
 }
 .footer_link{
-    padding: .25rem 0;
+    padding: 1rem 0; /* changed*/
 }
 
 .footer_link:hover{
