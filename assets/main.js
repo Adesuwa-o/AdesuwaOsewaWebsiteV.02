@@ -27,7 +27,7 @@ navLink.forEach(n => n.addEventListener ('click', linkAction))
 /* scroll section active link*/
 
 const sections = document.querySelectorAll('selection[id]')
-window.addEventListener('scroll' scrollActive)
+window.addEventListener('scroll', scrollActive)
 function scrollActive(){
     const scrollY = window.pageYOffset
 
@@ -49,8 +49,8 @@ function scrollActive(){
 /* scroll reveal animation*/
 
 const sr = ScrollReveal({
-    origin: 'top'
-    distance: '80px'
+    origin: 'top',
+    distance: '80px',
     duration: 2000,
     reset: true
 })
