@@ -9,10 +9,11 @@
 
 /* colours*/
 :root{
-    --first-color: #5361FF;
+    --first-color:#ffd390 ; 
     --white-color:#FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
+   /* other colors #ffd390   #b1987a  #ce9e9e */
 }
 
 /* fuente y (typography)*/
