@@ -51,7 +51,7 @@ function scrollActive(){
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 2000,
+    duration: 900,
     reset: true
 })
 
@@ -70,12 +70,12 @@ sr.reveal('.about_social-icon' , {delay: 600, interval:200})
 /* scroll skills*/
 
 sr.reveal('.skills_subtitle' , {})
-sr.reveal('.skills_name' , {distance: '2opx', delay: 50, interval: 100})
+sr.reveal('.skills_name' , {distance: '2opx', delay: 50, interval: 200})
 sr.reveal('.skills_img' , {delay: 400})
 
 /* scroll portfolio*/
 
-sr.reveal('.portfolio_img' , {interval: 200})
+sr.reveal('.portfolio_img' , {interval: 100})
 
 /* scroll contact*/
 sr.reveal('.contact_subtitle' , {})
