@@ -9,11 +9,11 @@
 
 /* colours*/
 :root{
-    --first-color:#ffd390 ; 
+    --first-color:#d165005d ; 
     --white-color:#FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
-   /* other colors #ffd390   #b1987a  #ce9e9e */
+   /* other colors #ffd390   #b1987a  #ce9e9e #9b991ed7 */
 }
 
 /* fuente y (typography)*/
@@ -147,8 +147,9 @@ img{
         height: 100%;
         padding: 2rem;
         background-color: rgba(255,255,255,.3);
-        transition: .1s;
-        backdrop-filter: drop-shadow(4px 4px 10px blue);
+        transition: .5s;
+        backdrop-filter: blur(10px);
+        
 
 
     }
@@ -177,7 +178,6 @@ img{
     right: 0;
 
 }
-
 
 
 /* Active menu*/
