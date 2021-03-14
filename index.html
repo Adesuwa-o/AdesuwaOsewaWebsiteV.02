@@ -234,14 +234,17 @@ Skills removed-->
                      <span class="contact_text">+44 47596 85784</span> -->
 
                  </div>
-                 <form action="" class="contact_form">
+                 <form action="https://formsubmit.co/info@adesuwaosewa.com" class="contact_form" method="POST">
                      <div class="contact_inputs">
-                         <input type="text" placeholder="Name" class="contact_input">
-                         <input type="mail" placeholder="Email" class="contact_input">
+                         <input type="text" placeholder="Name" class="contact_input" required>
+                         <input type="mail" placeholder="Email" class="contact_input" required>
+                         <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+
+            
                      </div>
 
-                     <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
-                     <input type="submit" value="Send" class="contact_button">
+                     <textarea name="message" placeholder="" id="" cols="0" rows="10" class="contact_input"></textarea>
+                     <button type="submit" value="Send" class="contact_button">Send</button>
                  </form>
 
              </div>
