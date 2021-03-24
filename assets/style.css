@@ -12,8 +12,8 @@
     --first-color:#d165005d; 
     --white-color:#FAFAFF;
     --dark-color: #2A3B47;
-    --text-color: #697477;
-   /* other colors #ffd390   #b1987a  #ce9e9e #9b991ed7 */
+    --text-color: #000000;
+   /* other colors #ffd390   #b1987a  #ce9e9e #9b991ed7 #697477; */ 
 }
 
 /* fuente y (typography)*/
@@ -160,7 +160,7 @@ img{
         padding: 2rem;
         background-color: rgba(255,255,255,.3);
         transition: .5s;
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(2px);
         
 
 
@@ -168,6 +168,7 @@ img{
 }
 .nav_item{
     margin-bottom: var(--mb-4);
+    font-weight: 5rem;
 }
 .nav_link{
     position: relative;
