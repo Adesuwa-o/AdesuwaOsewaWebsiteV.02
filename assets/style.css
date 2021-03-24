@@ -3,13 +3,13 @@
 
 /* variables css*/
 :root {
-    --header-height: 3rem
+    --header-height: 3rem;
     --font-medium: 500;
 }
 
 /* colours*/
 :root{
-    --first-color:#d165005d ; 
+    --first-color:#d165005d; 
     --white-color:#FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
