@@ -54,7 +54,7 @@
 }
 html{
     scroll-behavior: smooth;
-    overflow: auto;
+    overflow: scroll;
 }
 body{
     margin: var(--header-height) 0 0 0;
@@ -63,7 +63,7 @@ body{
     font-weight: var(--normal-font-size);
     color: var(--text-color);
     line-height: 1.6;
-    overflow: auto;
+    overflow: scroll;
 }
 h1,h2,p{
     margin: 0;
