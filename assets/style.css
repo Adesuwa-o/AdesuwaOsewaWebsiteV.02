@@ -8,7 +8,7 @@
 
 /* colours*/
 :root{
-    --first-color:#B59DA4;
+    --first-color:#4e4e4e;
     --white-color:#FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #000000;
@@ -63,6 +63,7 @@ body{
     font-weight: var(--normal-font-size);
     color: var(--text-color);
     line-height: 1.6;
+    overflow: hidden;
 }
 h1,h2,p{
     margin: 0;
