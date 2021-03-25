@@ -290,7 +290,7 @@ img{
     color: var(--first-color) ;
 }
 
-/* Skills*/
+/* Skills
 
 .skills_container{
     row-gap: 2rem;
@@ -318,7 +318,7 @@ img{
 .skills_img img{
     border-radius: .5rem;
 }
-
+*/
 .djradio_subtitle{
     font-size: var(--h2-font-size);
     color: var(--first-color);
@@ -413,20 +413,11 @@ img{
 /* Contact*/
 .contact_container{
     row-gap: 2rem;
-    display: flex;    /* added*/
-    justify-content: center;  /* added*/
+    display: flex;    
+    justify-content: center;  
    
 }
-/* 
-.contact_subtitle{
-    font-size: var(--normal-font-size);
-    color: var(--first-color)
-}
 
-.contact_text{
-    display: inline-block;
-    margin-bottom: var(--mb-2); 
-}*/
 .contact_inputs{
     display: grid;
     grid-template-columns: repeat(.5, 1fr); /* changed*/
@@ -459,9 +450,7 @@ img{
 
 /* Footer*/
 /* 
-.footer{
-    background-color: var(--dark-color);
-}
+
 Footer*/
 
 .footer_container{
@@ -473,7 +462,7 @@ Footer*/
     margin-bottom: var(--mb-1);
 }
 .footer_link{
-    padding: 1rem 0; /* changed*/
+    padding: 1rem 0; 
 }
 
 .footer_link:hover{
