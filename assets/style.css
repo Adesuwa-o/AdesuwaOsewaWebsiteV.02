@@ -225,9 +225,9 @@ img{
     padding: 4rem 0;
 }/* Home
 .home_title span{
-    text-shadow: 0 20px 25px rgba(0,0,0,.5); */
+    text-shadow: 0 20px 25px rgba(0,0,0,.5); 
     
-}
+}*/
 .home_scroll{
     align-self: flex-end;
     padding-bottom: var(--mb-4);
