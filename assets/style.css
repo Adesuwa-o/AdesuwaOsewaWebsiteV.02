@@ -439,13 +439,14 @@ img{
     background-color: var(--first-color);
     color: var(--white-color);
     padding: .75rem 2.5rem;
-    margin-left: auto;
+    margin: auto;
     border-radius: .5rem;
     border: none;
     outline: solid;
     outline-color: var(--white-color);
     font-size: var(--normal-font-size);
     cursor: pointer;
+ 
 }
 
 /* Footer*/
