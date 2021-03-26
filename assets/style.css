@@ -87,15 +87,19 @@ img{
 
 .thanks{
     background-color: var(--first-color);
-    line-height: 20rem;
-    height: 20rem;
-    text-align: center;
     overflow: visible;
-   
+    text-align: center;
+}
+
+.thanks_container{
+    line-height: 2rem;
+    margin-top: 10rem;
 }
 
 #return{
- margin: auto;
+ margin-top: 8rem;
+
+ 
 }
 
 .section{
